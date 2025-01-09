@@ -30,7 +30,7 @@ Project-group-13-Persistent
   Email: [kdzhaman@gmail.com](mailto:kdzhaman@gmail.com)
 - **Коваленко Тетяна**  
   Email: [kovalenko_t@ukr.net](mailto:kovalenko_t@ukr.net)
-- **Кривчишин Олександр**  
+- **Крившич Олександр**  
   Email: [o.kryvshych@gmail.com](mailto:o.kryvshych@gmail.com)
 - **Чуваєва Світлана**  
   Email: [missis.chuvaeva@ukr.net](mailto:missis.chuvaeva@ukr.net)

@@ -28,6 +28,7 @@
   .catalog-header {
     font-size: 48px;
     line-height: 0.92;
+    margin-bottom: 40px;
   }
 }
 
@@ -82,4 +83,25 @@
   .catalog-photo-container {
     width: 368px;
   }
+}
+.watch-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .watch-name {
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+.watch-price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
 }

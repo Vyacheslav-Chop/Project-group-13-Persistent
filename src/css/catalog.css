@@ -1,17 +1,17 @@
-.catalog-container {
+.gallery-container {
   width: 335px;
 }
 @media screen and (min-width: 768px) {
-  .catalog-container {
+  .gallery-container {
     width: 704px;
   }
 }
 @media screen and (min-width: 1250px) {
-  .catalog-container {
+  .gallery-container {
     width: 1150px;
   }
 }
-.catalog-header {
+.gallery-header {
   font-weight: 600;
   font-size: 32px;
   line-height: 1;
@@ -25,14 +25,14 @@
   margin-top: 0;
 }
 @media screen and (min-width: 768px) {
-  .catalog-header {
+  .gallery-header {
     font-size: 48px;
     line-height: 0.92;
     margin-bottom: 40px;
   }
 }
 
-.catalog-list {
+.gallery-list {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -41,50 +41,52 @@
   gap: 20px;
 }
 @media screen and (min-width: 768px) {
-  .catalog-list {
+  .gallery-list {
     row-gap: 32px;
     column-gap: 16px;
   }
 }
 
 @media screen and (min-width: 1158px) {
-  .catalog-list {
+  .gallery-list {
     row-gap: 32px;
     column-gap: 23px;
   }
 }
-.catalog-item {
-  width: 335px;
-}
-@media screen and (min-width: 768px) {
-  .catalog-item {
-    width: calc((100% - 16px) / 2);
-  }
-}
-@media screen and (min-width: 1280px) {
-  .catalog-item {
-    width: calc((100% - 32px) / 3);
-  }
-}
-
-.catalog-photo-container {
-  border: 1px solid rgba(12, 12, 12, 0.05);
-  border-radius: 30px;
+.gallery-item {
   width: 335px;
   background-color: #f3f3f3;
 }
 @media screen and (min-width: 768px) {
-  .catalog-photo-container {
+  .gallery-item {
+    width: calc((100% - 16px) / 2);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .gallery-item {
+    width: calc((100% - 32px) / 3);
+  }
+}
+
+.gallery-photo-container {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  padding: 24px 28px;
+}
+@media screen and (min-width: 768px) {
+  .gallery-photo-container {
     width: 344px;
+    padding: 24px 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .catalog-photo-container {
+  .gallery-photo-container {
     width: 368px;
   }
 }
-.watch-name {
+.gallery-watch-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -93,15 +95,41 @@
   margin-bottom: 8px;
 }
 @media screen and (min-width: 768px) {
-  .watch-name {
+  .gallery-watch-name {
     font-size: 20px;
     line-height: 1;
   }
 }
-.watch-price {
+.gallery-watch-price {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
+}
+@media screen and (max-width: 767px) {
+  .not-show-on-mobile {
+    display: none;
+  }
+}
+
+.btn_details {
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  padding: 15px 44px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .btn_details {
+    display: none;
+  }
 }

@@ -54,8 +54,11 @@
   }
 }
 .gallery-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
   width: 335px;
   background-color: #f3f3f3;
+  width: 335px;
 }
 @media screen and (min-width: 768px) {
   .gallery-item {
@@ -69,9 +72,6 @@
 }
 
 .gallery-photo-container {
-  border: 1px solid rgba(12, 12, 12, 0.05);
-  border-radius: 30px;
-  width: 335px;
   padding: 24px 28px;
 }
 @media screen and (min-width: 768px) {

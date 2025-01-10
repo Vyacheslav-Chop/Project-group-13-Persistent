@@ -1,0 +1,22 @@
+.story {
+    background-image: linear-gradient (rgba (), rgba ()),
+    url(../img)
+}
+
+.visually-hidden {
+}
+
+.story-text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: var(--background);
+}
+
+.you-story {
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.story-button {
+}

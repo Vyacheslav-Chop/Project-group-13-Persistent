@@ -1,28 +1,9 @@
-.gallery-container {
-  width: 335px;
-}
-@media screen and (min-width: 768px) {
-  .gallery-container {
-    width: 704px;
-  }
-}
-@media screen and (min-width: 1250px) {
-  .gallery-container {
-    width: 1150px;
-  }
-}
 .gallery-header {
-  font-weight: 600;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  text-transform: capitalize;
-  text-align: start;
   margin-bottom: 24px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
 }
 @media screen and (min-width: 768px) {
   .gallery-header {
@@ -35,8 +16,7 @@
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  margin: 0 auto;
+
   justify-content: center;
   gap: 20px;
 }
@@ -56,13 +36,13 @@
 .gallery-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
+  padding: 24px 28px;
   background-color: #f3f3f3;
-  width: 335px;
 }
 @media screen and (min-width: 768px) {
   .gallery-item {
     width: calc((100% - 16px) / 2);
+    padding: 24px 32px;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -71,21 +51,6 @@
   }
 }
 
-.gallery-photo-container {
-  padding: 24px 28px;
-}
-@media screen and (min-width: 768px) {
-  .gallery-photo-container {
-    width: 344px;
-    padding: 24px 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .gallery-photo-container {
-    width: 368px;
-  }
-}
 .gallery-watch-name {
   font-weight: 500;
   font-size: 16px;
@@ -101,15 +66,13 @@
   }
 }
 .gallery-watch-price {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   .not-show-on-mobile {
-    visibility: hidden;
     display: none;
   }
 }
@@ -128,6 +91,7 @@
   margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .btn_details {

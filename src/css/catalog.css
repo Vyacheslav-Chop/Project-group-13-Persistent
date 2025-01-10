@@ -109,6 +109,7 @@
 }
 @media screen and (max-width: 767px) {
   .not-show-on-mobile {
+    visibility: hidden;
     display: none;
   }
 }

@@ -36,7 +36,7 @@ Project-group-13-Persistent
   Email: [missis.chuvaeva@ukr.net](mailto:missis.chuvaeva@ukr.net)
 - **Яроцька Ірина**  
   Email: [yarockii1983@gmail.com](mailto:yarockii1983@gmail.com)
-- **Яходкін Олександр**  
+- **Ягодкін Олександр**  
   Email: [0506aleksandr@gmail.com](mailto:0506aleksandr@gmail.com)
 
 # Виконано на основі подій
